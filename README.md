@@ -1,8 +1,8 @@
-💱 Currency Converter
+##💱 Currency Converter
 
 A simple and responsive currency converter web app built with HTML, CSS, and JavaScript, using real-time exchange rates from the ExchangeRate-API.
 
-🚀 Features
+##🚀 Features
 	•	🌍 Convert between 160+ currencies in real-time
 	•	🔁 Swap currencies easily
 	•	💡 Live exchange rate display 
@@ -10,7 +10,7 @@ A simple and responsive currency converter web app built with HTML, CSS, and Jav
 	•	🧹 Clear history with one click
 	•	⌨️ Enter key support for instant conversion
  
- 🛠️ Technologies Used
+ ##🛠️ Technologies Used
 	•	HTML5
 	•	CSS3 
 	•	JavaScript
