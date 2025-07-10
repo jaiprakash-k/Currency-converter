@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Currency Converter</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="converter">
+    <h1>Currency Converter</h1>
+
+    <form id="converter-form" class="input-group">
+      <input type="number" id="amount" placeholder="Enter amount" required />
+      <select id="from-currency"></select>
+      <select id="to-currency"></select>
+      <button type="submit">Convert</button>
+    </form>
+
+    <div id="exchange-rate" style="margin: 10px 0; font-weight: bold;"></div>
+
+    <button id="swap">🔁 Swap</button>
+
+    <div id="result"></div>
+    <div id="history"></div>
+    <button id="clear-history">🗑️ Clear History</button>
+  
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
